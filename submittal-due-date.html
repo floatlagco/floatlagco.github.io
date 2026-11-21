@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Figure a Submittal Due Date From the Schedule | Float &amp; Lag Co.</title>
+<meta name="description" content="Work back from the schedule to get need-on-site, order-by and submittal due dates for any item. Worked example plus a free calculator for Excel and Google Sheets.">
+<link rel="canonical" href="https://floatlagco.github.io/submittal-due-date.html">
+<meta property="og:title" content="How to Figure a Submittal Due Date From the Schedule | Float &amp; Lag Co.">
+<meta property="og:description" content="Work back from the schedule to get need-on-site, order-by and submittal due dates for any item. Worked example plus a free calculator for Excel and Google Sheets.">
+<meta property="og:url" content="https://floatlagco.github.io/submittal-due-date.html">
+<meta property="og:type" content="article">
+<link rel="icon" href="mark.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a href="./" class="logo"><img src="logo.png" alt="Float &amp; Lag Co." width="190" height="30"></a>
+<nav><a href="./#guides">How-to</a><a href="https://payhip.com/FloatLagCo">Store</a></nav>
+</div></header>
+<main class="wrap">
+<h1>How to Figure a Submittal Due Date From the Schedule</h1>
+<p class="lede">Most late materials were late on paper weeks before anyone noticed. The submittal went in when someone got to it, not when the schedule needed it. The fix is to start from the activity that uses the material and work backward.</p>
+
+<h2>The three dates that matter</h2>
+<ol>
+<li><strong>Need on site</strong> = the activity's start date on the schedule, minus a site buffer (a few days to receive, check and stage the material).</li>
+<li><strong>Order by</strong> = need on site, minus the supplier's lead time, minus shipping.</li>
+<li><strong>Submittal due</strong> = order by, minus the reviewer's turnaround, minus an allowance for one resubmittal.</li>
+</ol>
+<p>If today is already past the submittal due date, the item is behind. Better to find that out now than the week the crew shows up with nothing to install.</p>
+
+<h2>A worked example</h2>
+<p>Hollow metal door frames. Frame install starts on the schedule March 30, 2027.</p>
+<table>
+<tr><th>Step</th><th>Date</th></tr>
+<tr><td>Activity start</td><td>Mar 30</td></tr>
+<tr><td>Minus a 5-day site buffer: need on site</td><td>Mar 25</td></tr>
+<tr><td>Minus 6 weeks lead time and 5 days shipping: order by</td><td>Feb 6</td></tr>
+<tr><td>Minus 14 days review and 10 days for a resubmittal: submittal due</td><td>Jan 13</td></tr>
+</table>
+<p>Use calendar days for lead time and shipping, since suppliers quote in weeks. Check whether your contract gives the review period in calendar days or working days.</p>
+
+<h2>Where it goes wrong</h2>
+<ul>
+<li><strong>Counting lead time from the quote.</strong> The clock usually starts at an approved submittal and a signed PO. Ask the supplier when theirs starts.</li>
+<li><strong>No resubmittal allowance.</strong> One "revise and resubmit" and a plan with no slack is already late.</li>
+<li><strong>The schedule moved and the dates didn't.</strong> Tie every item to a schedule activity, so when the activity moves, its dates move with it.</li>
+<li><strong>Nobody knows who has it.</strong> Track whose court the ball is in: yours, the GC's, the architect's or the supplier's.</li>
+</ul>
+
+<div class="get">
+<h2>Do it in a spreadsheet</h2>
+<p>The <a href="https://payhip.com/b/35ez0">free Submittal Due Date Calculator</a> runs this math for a list of items and flags anything past due or due soon. When you need the whole log (review status, resubmittal count, PO and delivery dates, and a dashboard of who has the ball), the <a href="https://payhip.com/b/UwlQ3">Submittal &amp; Procurement Tracker</a> is built on the same math. Both work in Excel and Google Sheets.</p>
+</div>
+</main>
+<footer><div class="wrap">
+<p>Float &amp; Lag Co. makes spreadsheet templates for small contractors and subs. Templates are sold and delivered through <a href="https://payhip.com/FloatLagCo">Payhip</a>.</p>
+<p>General information, not legal or professional advice. Your contract and local rules come first.</p>
+</div></footer>
+</body>
+</html>
